@@ -1,153 +1,35 @@
-# 8 Week SQL Challenge by Danny Ma
+# 8 Week SQL Challenge
 
-This repository contains the 8 case-study solutions for [8 Week SQL Challenge](https://8weeksqlchallenge.com/) by Danny Ma. 
+This repository contains all of my case study solutions through SQL queries for [#8WeekSQLChallenge](https://8weeksqlchallenge.com/) by [Danny Ma](https://www.linkedin.com/in/datawithdanny/). 
 
-Thanks for [Danny Ma](https://www.linkedin.com/in/datawithdanny/) for this SQL challenge!
+This project uses the `MySQL` database management in writing SQL queries to solve these case studies.
 
-> **Status:** *Currently In-Progress*
+## Case Studies
 
+There are 8 interesting real-world case studies in this challenge. You can also check out my solutions on **Medium** and **Github** via the link below. 
 
-## Case Study #1 - Danny's Diner
+| No |                                                                                                       Case Study                                                                                                        | <div style = "text-align: center"> Topic Covered </div>                                                                                             |            Medium            |                                                    GitHub                                                     | <div style = "text-align: center"> Status </div> |
+|:--:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------:|:-------------------------------------------------------------------------------------------------------------:|:------------------------------------------------:|
+| 1  |              [<img src="https://8weeksqlchallenge.com/images/case-study-designs/1.png" alt="Danny's Diner" width="100" height="100">](https://8weeksqlchallenge.com/case-study-1/) <br/> **Danny's Diner**              | <ul> <li> Common Table Expressions (CTEs) </li> <li> Group By Aggregates </li> <li> Window Functions for Ranking </li> <li> Table Joins </li> </ul> |      [Case Study #1]()       |             [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/1-danny-diner)              |   🟢 Completed <br/> <!-- (on X May 2023) -->    |
+| 2  |               [<img src="https://8weeksqlchallenge.com/images/case-study-designs/2.png" alt="Pizza Runner" width="100" height="100">](https://8weeksqlchallenge.com/case-study-2/) <br/> **Pizza Runner**               | <div style = "text-align: center"> - </div>                                                                                                         | - <!-- [Case Study #2]()-->  |       - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/2-pizza-runner) -->        |  🟠 In Progress <br/> <!-- (on X May 2023) -->   |
+| 3  |                  [<img src="https://8weeksqlchallenge.com/images/case-study-designs/3.png" alt="Foodie-Fi" width="100" height="100">](https://8weeksqlchallenge.com/case-study-3/) <br/> **Foodie-Fi**                  | <div style = "text-align: center"> - </div>                                                                                                         | - <!-- [Case Study #3]()-->  |         - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/3-foodie-fi) -->         |     ⚪️ To Do <br/> <!-- (on X May 2023) -->      |
+| 4  |                  [<img src="https://8weeksqlchallenge.com/images/case-study-designs/4.png" alt="Data Bank" width="100" height="100">](https://8weeksqlchallenge.com/case-study-4/) <br/> **Data Bank**                  | <div style = "text-align: center"> - </div>                                                                                                         | - <!-- [Case Study #4]()-->  |         - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/4-data-bank) -->         |     ⚪️ To Do <br/> <!-- (on X May 2023) -->      |
+| 5  |                  [<img src="https://8weeksqlchallenge.com/images/case-study-designs/5.png" alt="Data Mart" width="100" height="100">](https://8weeksqlchallenge.com/case-study-5/) <br/> **Data Mart**                  | <div style = "text-align: center"> - </div>                                                                                                         | - <!-- [Case Study #5]()-->  |         - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/5-data-mart) -->         |     ⚪️ To Do <br/> <!-- (on X May 2023) -->      |
+| 6  |                [<img src="https://8weeksqlchallenge.com/images/case-study-designs/6.png" alt="Clique Bait" width="100" height="100">](https://8weeksqlchallenge.com/case-study-6/) <br/> **Clique Bait**                | <div style = "text-align: center"> - </div>                                                                                                         | - <!-- [Case Study #6]() --> |        - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/6-clique-bait) -->        |     ⚪️ To Do <br/> <!-- (on X May 2023) -->      |
+| 7  | [<img src="https://8weeksqlchallenge.com/images/case-study-designs/7.png" alt="Balanced Tree Clothing Co." width="100" height="100">](https://8weeksqlchallenge.com/case-study-7/) <br/> **Balanced Tree Clothing Co.** | <div style = "text-align: center"> - </div>                                                                                                         | - <!-- [Case Study #7]() --> | - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/7-balanced-tree-clothing-co) --> |     ⚪️ To Do <br/> <!-- (on X May 2023) -->      |
+| 8  |             [<img src="https://8weeksqlchallenge.com/images/case-study-designs/8.png" alt="Fresh Segments" width="100" height="100">](https://8weeksqlchallenge.com/case-study-8/) <br/> **Fresh Segments**             | <div style = "text-align: center"> - </div>                                                                                                         | - <!-- [Case Study #8]() --> |      - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/8-fresh-segments) -->       |     ⚪️ To Do <br/> <!-- (on X May 2023) -->      |
 
-<div align="center">
-    <img src="https://8weeksqlchallenge.com/images/case-study-designs/1.png" alt="Image" width="540" height="540">
-</div>
 
-### Introduction
+## Contact
 
-Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
+Thank you so much for taking the time to visit my repository! 😁 
 
-Danny’s Diner is in need of your assistance to help the restaurant stay afloat - the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
+You can also reach me at:
 
-See more details about this case study:   https://8weeksqlchallenge.com/case-study-1/
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:t.thanakraikiti@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thanakornthanakraikiti/) [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@thanakorn.tha) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thanakorntha) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/thanakorn.tha/)
 
 
-## Case Study #2 - Pizza Runner
 
-<div align="center">
-    <img src="https://8weeksqlchallenge.com/images/case-study-designs/2.png" alt="Image" width="540" height="540">
-</div>
 
-### Introduction
 
-Did you know that over 115 million kilograms of pizza is consumed daily worldwide??? (Well according to Wikipedia anyway…)
-
-Danny was scrolling through his Instagram feed when something really caught his eye - “80s Retro Styling and Pizza Is The Future!”
-
-Danny was sold on the idea, but he knew that pizza alone was not going to help him get seed funding to expand his new Pizza Empire - so he had one more genius idea to combine with it - he was going to Uberize it - and so Pizza Runner was launched!
-
-Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
-
-See more details about this case study:   https://8weeksqlchallenge.com/case-study-2/
-
-
-## Case Study #3 - Foodie-Fi
-
-<div align="center">
-    <img src="https://8weeksqlchallenge.com/images/case-study-designs/3.png" alt="Image" width="540" height="540">
-</div>
-
-### Introduction
-
-Subscription based businesses are super popular and Danny realised that there was a large gap in the market - he wanted to create a new streaming service that only had food related content - something like Netflix but with only cooking shows!
-
-Danny finds a few smart friends to launch his new startup Foodie-Fi in 2020 and started selling monthly and annual subscriptions, giving their customers unlimited on-demand access to exclusive food videos from around the world!
-
-Danny created Foodie-Fi with a data driven mindset and wanted to ensure all future investment decisions and new features were decided using data. This case study focuses on using subscription style digital data to answer important business questions.
-
-See more details about this case study:   https://8weeksqlchallenge.com/case-study-3/
-
-
-## Case Study #4 - Data Bank
-
-<div align="center">
-    <img src="https://8weeksqlchallenge.com/images/case-study-designs/4.png" alt="Image" width="540" height="540">
-</div>
-
-### Introduction
-
-There is a new innovation in the financial industry called Neo-Banks: new aged digital only banks without physical branches.
-
-Danny thought that there should be some sort of intersection between these new age banks, cryptocurrency and the data world…so he decides to launch a new initiative - Data Bank!
-
-Data Bank runs just like any other digital bank - but it isn’t only for banking activities, they also have the world’s most secure distributed data storage platform!
-
-Customers are allocated cloud data storage limits which are directly linked to how much money they have in their accounts. There are a few interesting caveats that go with this business model, and this is where the Data Bank team need your help!
-
-The management team at Data Bank want to increase their total customer base - but also need some help tracking just how much data storage their customers will need.
-
-This case study is all about calculating metrics, growth and helping the business analyse their data in a smart way to better forecast and plan for their future developments!
-
-See more details about this case study:   https://8weeksqlchallenge.com/case-study-4/
-
-
-## Case Study #5 - Data Mart
-
-<div align="center">
-    <img src="https://8weeksqlchallenge.com/images/case-study-designs/5.png" alt="Image" width="540" height="540">
-</div>
-
-### Introduction
-
-Data Mart is Danny’s latest venture and after running international operations for his online supermarket that specialises in fresh produce - Danny is asking for your support to analyse his sales performance.
-
-In June 2020 - large scale supply changes were made at Data Mart. All Data Mart products now use sustainable packaging methods in every single step from the farm all the way to the customer.
-
-Danny needs your help to quantify the impact of this change on the sales performance for Data Mart and it’s separate business areas.
-
-The key business question he wants you to help him answer are the following:
-
-* What was the quantifiable impact of the changes introduced in June 2020?
-* Which platform, region, segment and customer types were the most impacted by this change?
-* What can we do about future introduction of similar sustainability updates to the business to minimise impact on sales?
-
-See more details about this case study:   https://8weeksqlchallenge.com/case-study-5/
-
-
-## Case Study #6 - Clique Bait
-
-<div align="center">
-    <img src="https://8weeksqlchallenge.com/images/case-study-designs/6.png" alt="Image" width="540" height="540">
-</div>
-
-### Introduction
-
-Clique Bait is not like your regular online seafood store - the founder and CEO Danny, was also a part of a digital data analytics team and wanted to expand his knowledge into the seafood industry!
-
-In this case study - you are required to support Danny’s vision and analyse his dataset and come up with creative solutions to calculate funnel fallout rates for the Clique Bait online store.
-
-See more details about this case study:   https://8weeksqlchallenge.com/case-study-6/
-
-
-## Case Study #7 - Balanced Tree Clothing Co.
-
-<div align="center">
-    <img src="https://8weeksqlchallenge.com/images/case-study-designs/7.png" alt="Image" width="540" height="540">
-</div>
-
-### Introduction
-
-Balanced Tree Clothing Company prides themselves on providing an optimised range of clothing and lifestyle wear for the modern adventurer!
-
-Danny, the CEO of this trendy fashion company has asked you to assist the team’s merchandising teams analyse their sales performance and generate a basic financial report to share with the wider business.
-
-See more details about this case study:   https://8weeksqlchallenge.com/case-study-7/
-
-
-## Case Study #8 - Fresh Segments
-
-<div align="center">
-    <img src="https://8weeksqlchallenge.com/images/case-study-designs/8.png" alt="Image" width="540" height="540">
-</div>
-
-### Introduction
-
-Danny created Fresh Segments, a digital marketing agency that helps other businesses analyse trends in online ad click behaviour for their unique customer base.
-
-Clients share their customer lists with the Fresh Segments team who then aggregate interest metrics and generate a single dataset worth of metrics for further analysis.
-
-In particular - the composition and rankings for different interests are provided for each client showing the proportion of their customer list who interacted with online assets related to each interest for each month.
-
-Danny has asked for your assistance to analyse aggregated metrics for an example client and provide some high level insights about the customer list and their interests.
-
-See more details about this case study:   https://8weeksqlchallenge.com/case-study-8/
+[Back to Top](#8-week-sql-challenge)
