@@ -1,4 +1,4 @@
-# 🍜 Case Study #1 - Danny's Diner
+# Case Study #1 - Danny's Diner
 
 <div align = "center">
     <img 
@@ -17,7 +17,9 @@
 
 <div align = "center">
 
-**Note:** *If you want to join this challenge, see more details about this case study on [Danny's Diner (Case Study #1)](https://8weeksqlchallenge.com/case-study-1/).*
+**Note:** *If you want to join this challenge, please see more details about this case study on [Danny's Diner (Case Study #1)](https://8weeksqlchallenge.com/case-study-1/).*
+
+*You can also find my SQL queries for this case study on this [GitHub repository](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/1-danny-diner/codes).*
 
 </div>
 
@@ -29,11 +31,18 @@
 
 ## Introduction
 
-Danny is a passionate entrepreneur who opened a Japanese restaurant called Danny's Diner in 2021, selling only his 3 favourite foods such as sushi 🍣, curry 🍛 and ramen 🍜. 
+Danny is a passionate entrepreneur who opened a Japanese restaurant called Danny's Diner in 2021, selling only his 3 favourite foods such as:
+
+* sushi  🍣
+* curry  🍛 
+* ramen  🍜
 
 He has been collecting basic data about his customers, such as their visiting patterns, spending habits, and favorite menu items. Danny wants to use this data to **improve his business and make smarter decisions about his customer loyalty program**. 
 
 He has provided a sample of his customer data, and he hopes that you can use it to write SQL queries that will help him answer his questions.
+
+
+<br/>
 
 
 ## Datasets
@@ -44,7 +53,7 @@ Danny has shared 3 key datasets in the `dannys_diner` database schema:
 * **`menu`** = maps the `product_id` to the actual `product_name` and `price` of each menu item
 * **`members`** = captures the `join_date` when a `customer_id` joined the beta version of the Danny’s Diner loyalty program
 
-You can see the relationship between 3 tabkes for this case study below:
+You can see the relationship between 3 tables for this case study below:
 
 <br/>
 
@@ -58,6 +67,9 @@ You can see the relationship between 3 tabkes for this case study below:
 <br/>
 
 You can also find more details about datasets [here](https://8weeksqlchallenge.com/case-study-1/).
+
+
+<br/>
 
 
 ## Case Study Questions
@@ -75,10 +87,7 @@ Danny has provided me with 10 questions that he needs to be answered:
 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
 10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
 
-You can find my SQL queries for this case study on this [GitHub repository](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/1-danny-diner/code).
 
+---
 
-
-
-
-[Back to Top](#introduction)
+[Back to Top](#case-study-1---dannys-diner)
