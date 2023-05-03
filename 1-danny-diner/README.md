@@ -19,7 +19,7 @@
 
 **Note:** *If you want to join this challenge, please see more details about this case study on [Danny's Diner (Case Study #1)](https://8weeksqlchallenge.com/case-study-1/).*
 
-*You can also find my SQL queries for this case study on this [GitHub repository](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/1-danny-diner/codes).*
+*You can also find my chellenge story on [Medium](https://medium.com/@thanakorn.tha/8-week-sql-challenge-dannys-diner-case-study-1-b4ff39d22139) and my SQL queries for this case study on this [GitHub repository](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/1-danny-diner/codes).*
 
 </div>
 
@@ -33,9 +33,9 @@
 
 Danny is a passionate entrepreneur who opened a Japanese restaurant called Danny's Diner in 2021, selling only his 3 favourite foods such as:
 
-* sushi  🍣
-* curry  🍛 
-* ramen  🍜
+* Sushi  🍣
+* Curry  🍛 
+* Ramen  🍜
 
 He has been collecting basic data about his customers, such as their visiting patterns, spending habits, and favorite menu items. Danny wants to use this data to **improve his business and make smarter decisions about his customer loyalty program**. 
 
@@ -83,9 +83,22 @@ Danny has provided me with 10 questions that he needs to be answered:
 5. Which item was the most popular for each customer?
 6. Which item was purchased first by the customer after they became a member?
 7. Which item was purchased just before the customer became a member?
-8. What is the total items and amount spent for each member before they became a member?
+8. What are the total items and amount spent for each member before they became a member?
 9.  If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
-10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and B have at the end of January?
+10. In the first week after a customer joins the program (including their join date) they earn 2x points on all items, not just sushi - how many points do customer A and customer B have at the end of January?
+
+
+<br/>
+
+
+## SQL Topics Covered
+
+Here are the SQL topics that you can learn and practice in this case study:
+
+* **Common Table Expressions (CTEs)** allow you to define a temporary table that can be used in the body of a query
+* **Group By Aggregates** allows you to group rows together and calculate summary statistics for each group, including COUNT(), SUM(), AVG(), MAX(), and MIN()
+* **Window Functions for Ranking** allow you to calculate values over a window of rows that can be used to rank rows, calculate moving averages, and identify outliers
+* **Table Joins** allow you to combine data from two or more tables: inner joins, outer joins, and self joins
 
 
 ---
