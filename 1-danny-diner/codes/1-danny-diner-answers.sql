@@ -99,6 +99,7 @@ WITH member_purchase_after AS (
 )
 SELECT 
     customer_id, 
+    join_date, 
     order_date, 
     product_name
 FROM member_purchase_after AS mpa
@@ -124,6 +125,7 @@ WITH member_purchase_before AS (
 )
 SELECT 
     customer_id, 
+    join_date, 
     order_date, 
     product_name
 FROM member_purchase_before AS mpb
@@ -138,7 +140,7 @@ ORDER BY customer_id;
 
 SELECT 
     s.customer_id, 
-    COUNT(DISTINCT(product_name)) AS total_item,
+    COUNT(product_name) AS total_item,
     SUM(price) AS total_price
 FROM sales AS s
 INNER JOIN menu AS m ON s.product_id = m.product_id
