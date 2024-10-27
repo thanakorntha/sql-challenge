@@ -1,14 +1,9 @@
 # MacOS
 .DS_Store
 
-# VS Code Workspace
-8-weeks-sql-challenge.code-workspace
+# Enrivonment Variables
+.env
 
-# Challenge
-2-pizza-runner/
-3-foodie-fi/
-4-data-bank/
-5-data-mart/
-6-clique-bait/
-7-balanced-tree-clothing-co/
-8-fresh-segments/
+# DBeaver
+.project
+.dbeaver
