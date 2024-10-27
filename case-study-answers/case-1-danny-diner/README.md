@@ -3,7 +3,7 @@ Case Study #1 - Danny's Diner
 ==================================================
 
 <p align="center">
-    <img src = "../../resources/logo/1-danny-diner.png" alt = "Image by Danny Ma on 8-Week SQL Challenge" width = "50%"  height = "50%">
+    <img src = "https://8weeksqlchallenge.com/images/case-study-designs/1.png" alt = "Image by Danny Ma on 8-Week SQL Challenge" width = "50%"  height = "50%">
 </p>
 
 Introduction
@@ -35,24 +35,22 @@ You can see the relationship between 3 tables for this case study below:
 title: Danny's Diner ERD
 ---
 erDiagram
-	sales ||--o{ members : references
-	sales ||--o{ menu : references
-
-	sales {
-		VARCHAR(1) customer_id
-		DATE order_date
-		INT product_id
-	}
+    members ||--|{ sales : places
+    menu    ||--|{ sales : includes
 
 	menu {
-		INT product_id
+		INT product_id PK
 		VARCHAR(5) product_name
 		INT price
 	}
-
 	members {
-		VARCHAR(1) customer_id
+		VARCHAR(1) customer_id PK
 		DATE join_date
+	}
+	sales {
+		VARCHAR(1) customer_id FK
+		DATE order_date
+		INT product_id
 	}
 ```
 
