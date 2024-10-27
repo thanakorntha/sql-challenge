@@ -1,34 +1,63 @@
-# 8 Week SQL Challenge
+8 Week SQL Challenge
+==================================================
 
 This repository contains all of my case study solutions through SQL queries for [#8WeekSQLChallenge](https://8weeksqlchallenge.com/) by [Danny Ma](https://www.linkedin.com/in/datawithdanny/). 
 
 This project uses the `MySQL` database management in writing SQL queries to solve these case studies.
 
-## Case Studies
 
-There are 8 interesting real-world case studies in this challenge. You can also check out my solutions on **Medium** and **Github** via the link below. 
+Case Studies
+--------------------------------------------------
 
-| No |                                                                                                       Case Study                                                                                                        |                                                               SQL Topic Covered                                                               |                                                Medium                                                 |                                                    GitHub                                                     |                       Status                        |
-|:--:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------:|
-| 1  |              [<img src="https://8weeksqlchallenge.com/images/case-study-designs/1.png" alt="Danny's Diner" width="100" height="100">](https://8weeksqlchallenge.com/case-study-1/) <br/> **Danny's Diner**              |                      Common Table Expressions (CTEs) / Group By Aggregates / Window Functions for Ranking / Table Joins                       | [Link](https://medium.com/@thanakorn.tha/8-week-sql-challenge-dannys-diner-case-study-1-b4ff39d22139) |             [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/1-danny-diner)              |        🟢 <br/> Completed <br/> (04/05/2023)        |
-| 2  |               [<img src="https://8weeksqlchallenge.com/images/case-study-designs/2.png" alt="Pizza Runner" width="100" height="100">](https://8weeksqlchallenge.com/case-study-2/) <br/> **Pizza Runner**               | Common Table Expressions (CTEs) / Group By Aggregates / Table Joins / String Transformations / Dealing with Null Values / Regular Expressions |                                          - <!-- [Link]()-->                                           |       - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/2-pizza-runner) -->        | 🟠 <br/> In Progress <br/> <!-- (on X May 2023) --> |
-| 3  |                  [<img src="https://8weeksqlchallenge.com/images/case-study-designs/3.png" alt="Foodie-Fi" width="100" height="100">](https://8weeksqlchallenge.com/case-study-3/) <br/> **Foodie-Fi**                  |                                                                       -                                                                       |                                          - <!-- [Link]()-->                                           |         - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/3-foodie-fi) -->         |    ⚪️ <br/> To Do <br/> <!-- (on X May 2023) -->    |
-| 4  |                  [<img src="https://8weeksqlchallenge.com/images/case-study-designs/4.png" alt="Data Bank" width="100" height="100">](https://8weeksqlchallenge.com/case-study-4/) <br/> **Data Bank**                  |                                                                       -                                                                       |                                          - <!-- [Link]()-->                                           |         - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/4-data-bank) -->         |    ⚪️ <br/> To Do <br/> <!-- (on X May 2023) -->    |
-| 5  |                  [<img src="https://8weeksqlchallenge.com/images/case-study-designs/5.png" alt="Data Mart" width="100" height="100">](https://8weeksqlchallenge.com/case-study-5/) <br/> **Data Mart**                  |                                                                       -                                                                       |                                          - <!-- [Link]()-->                                           |         - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/5-data-mart) -->         |    ⚪️ <br/> To Do <br/> <!-- (on X May 2023) -->    |
-| 6  |                [<img src="https://8weeksqlchallenge.com/images/case-study-designs/6.png" alt="Clique Bait" width="100" height="100">](https://8weeksqlchallenge.com/case-study-6/) <br/> **Clique Bait**                |                                                                       -                                                                       |                                          - <!-- [Link]() -->                                          |        - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/6-clique-bait) -->        |    ⚪️ <br/> To Do <br/> <!-- (on X May 2023) -->    |
-| 7  | [<img src="https://8weeksqlchallenge.com/images/case-study-designs/7.png" alt="Balanced Tree Clothing Co." width="100" height="100">](https://8weeksqlchallenge.com/case-study-7/) <br/> **Balanced Tree Clothing Co.** |                                                                       -                                                                       |                                          - <!-- [Link]() -->                                          | - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/7-balanced-tree-clothing-co) --> |    ⚪️ <br/> To Do <br/> <!-- (on X May 2023) -->    |
-| 8  |             [<img src="https://8weeksqlchallenge.com/images/case-study-designs/8.png" alt="Fresh Segments" width="100" height="100">](https://8weeksqlchallenge.com/case-study-8/) <br/> **Fresh Segments**             |                                                                       -                                                                       |                                          - <!-- [Link]() -->                                          |      - <!-- [Link](https://github.com/thanakorntha/8-week-sql-challenge/tree/main/8-fresh-segments) -->       |    ⚪️ <br/> To Do <br/> <!-- (on X May 2023) -->    |
+There are eight interesting fictional case studies in this challenge. 
 
-
-## Contact
-
-Thank you so much for taking the time to visit my repository! 😁 
-
-You can also reach me at:
-
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:t.thanakraikiti@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thanakornthanakraikiti/) [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@thanakorn.tha) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thanakorntha) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/thanakorn.tha/)
+- **Danny's Diner**
+- **Pizza Runner**
+- **Foodie-Fi**
+- **Data Bank**
+- **Data Mart**
+- **Clique Bait**
+- **Balanced Tree Clothing Co.**
+- **Fresh Segments**
 
 
----
+How to Set Up Danny's Database
+--------------------------------------------------
 
-[Back to Top](#8-week-sql-challenge)
+### .ENV Configuration
+
+Before deploying this setup, you need to create and configure the following values in the `.env` file.
+
+```
+POSTGRES_USER=<your-postgres-username>
+POSTGRES_PASSWORD=<your-postgres-password>
+PGADMIN_EMAIL=<your-pgadmin-email>
+PGADMIN_PASSWORD=<your-pgadmin-password>
+```
+
+### Deploy with Docker Compose
+
+Deploy the database using `docker compose up --build -d`.
+
+```
+$ docker compose up --build -d
+
+[+] Building 0.1s (8/8) FINISHED                                                         docker:desktop-linux
+ => [postgres internal] load build definition from Dockerfile                                            0.0s
+ => => transferring dockerfile: 101B                                                                     0.0s
+ => [postgres internal] load metadata for docker.io/library/postgres:latest                              0.0s
+ => [postgres internal] load .dockerignore                                                               0.0s
+ => => transferring context: 2B                                                                          0.0s
+ => [postgres internal] load build context                                                               0.1s
+ => => transferring context: 6.32MB                                                                      0.0s
+ => [postgres 1/2] FROM docker.io/library/postgres:latest                                                0.1s
+ => [postgres 2/2] COPY ./initdb ./docker-entrypoint-initdb.d/                                           0.0s
+ => [postgres] exporting to image                                                                        0.0s
+ => => exporting layers                                                                                  0.0s
+ => => writing image sha256:0f7240674ef8acc34d5766847c7a74bf94429d5edb3d8322c9b1a1091f8de8e3             0.0s
+ => => naming to docker.io/library/postgres:latest                                                       0.0s
+ => [postgres] resolving provenance for metadata file                                                    
+ ✔ Network danny_default  Created                                                                        0.0s 
+ ✔ Container postgres     Started                                                                        0.1s 
+ ✔ Container pgadmin      Started                                                                        0.2s 
+ ```
