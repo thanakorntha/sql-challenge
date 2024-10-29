@@ -1,0 +1,15 @@
+{
+    "Servers": {
+        "1": {
+            "Name": "Danny's Database for SQL Challenge",
+            "Group": "Servers",
+            "Host": "postgres",
+            "Port": 5432,
+            "MaintenanceDB": "danny_db",
+            "Username": "postgres",
+            "PassFile": "/pgpass",
+            "Favorite": true,
+            "SSLMode": "prefer"
+        }
+    }
+}
