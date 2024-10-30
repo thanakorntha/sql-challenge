@@ -37,9 +37,7 @@ SELECT
     product_name
 FROM item_purchase_rank
 WHERE item_rank = 1
-GROUP BY 
-    customer_id, 
-    product_name;
+GROUP BY customer_id, product_name;
 
 /* **************************************************************************************************** *
  *   4.  What is the most purchased item on the menu                                                    *
@@ -67,9 +65,7 @@ WITH popular_item_rank AS (
         RANK() OVER (PARTITION BY customer_id ORDER BY COUNT(customer_id) DESC) AS item_rank
     FROM dannys_diner.sales AS s
     INNER JOIN dannys_diner.menu AS m ON s.product_id = m.product_id
-    GROUP BY 
-        customer_id, 
-        product_name
+    GROUP BY customer_id, product_name
 )
 SELECT 
     customer_id, 
