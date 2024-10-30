@@ -10,7 +10,9 @@ services:
     ports:
       - "5432:5432"
     volumes:
+      # Save database data
       - pg-data:/var/lib/postgresql/data
+      # Initialize entry point scripts for database creation
       - ./docker/postgres:/docker-entrypoint-initdb.d
     networks:
       - db-network
@@ -23,15 +25,22 @@ services:
     environment:
       - PGADMIN_DEFAULT_EMAIL=${PGADMIN_EMAIL:-pgadmin4@pgadmin.org}
       - PGADMIN_DEFAULT_PASSWORD=${PGADMIN_PASSWORD:-postgres}
+      # Disable server mode
       - PGADMIN_CONFIG_SERVER_MODE=False
+      # Disable master password
       - PGADMIN_CONFIG_MASTER_PASSWORD_REQUIRED=False
     ports:
       - "8080:80"
     user: root
+    # Run entrypoint script with permissions for automated database registration
     entrypoint: /bin/sh -c "chmod 600 /pgpass; /entrypoint.sh;"
     volumes:
+      # Add password file for automated database registration
       - ./docker/pgadmin/pgpass:/pgpass
+      # Add server configuration for automated database registration
       - ./docker/pgadmin/servers.json:/pgadmin4/servers.json
+      # Add query scripts for case studies
+      - ./case-study-answers:/root
     depends_on:
       - postgres
     networks:
