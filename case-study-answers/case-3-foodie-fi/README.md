@@ -36,11 +36,9 @@ Table of Contents
 Introduction and Problem Statement
 --------------------------------------------------
 
-Subscription based businesses are super popular and Danny realised that there was a large gap in the market - he wanted to create a new streaming service that only had food related content - something like Netflix but with only cooking shows!
+Subscription-based services are booming, but Danny saw an untapped opportunity in the market&mdash;an entire streaming platform dedicated to food. Imagine Netflix, but exclusively for food lovers, with a library of cooking shows, recipe tutorials, and culinary adventures. Inspired by this vision, Danny gathered a team of talented friends, and in 2020, they launched Foodie-Fi: a unique streaming service offering unlimited access to food-focused content from across the globe through monthly and annual subscriptions.
 
-Danny finds a few smart friends to launch his new startup Foodie-Fi in 2020 and started selling monthly and annual subscriptions, giving their customers unlimited on-demand access to exclusive food videos from around the world!
-
-Danny created Foodie-Fi with a data driven mindset and wanted to ensure all future investment decisions and new features were decided using data. This case study focuses on using subscription style digital data to answer important business questions.
+Built on a data-driven foundation, Danny designed Foodie-Fi to make every major decision—from new features to investment strategies—guided by analytics. This case study dives into how Foodie-Fi uses subscription data to answer pivotal business questions and drive sustainable growth.
 
 <br>
 
@@ -141,7 +139,7 @@ To add a plan name on the sample customer journey, we can join the `plans` table
 | 19          | 2       | pro monthly   | 2020-06-29 |
 | 19          | 3       | pro annual    | 2020-08-29 |
 
-As shown in the output above, most customers who began with a free trial eventually upgraded to a paid plan, including customers 1, 2, 13, 15, 16, 18, and 19. These customers initially used a 7-day free trial before transitioning to a basic or pro monthly plan. Additionally, three of these customers &mdash; number 2, number 16, and number 19 &mdash; further upgraded to an annual pro plan.
+As shown in the output above, most customers who began with a free trial eventually upgraded to a paid plan, including customers 1, 2, 13, 15, 16, 18, and 19. These customers initially used a 7-day free trial before transitioning to a basic or pro monthly plan. Additionally, three of these customers&mdash;number 2, number 16, and number 19&mdash;further upgraded to an annual pro plan.
 
 However, only two customers, 11 and 15, churned. Customer 11 started with a free trial and then churned without upgrading. Customer 15 initially upgraded from a free trial to a pro monthly plan but churned after one month.
 
