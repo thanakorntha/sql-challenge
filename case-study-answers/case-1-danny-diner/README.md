@@ -36,13 +36,11 @@ Table of Contents
 Introduction and Problem Statement
 --------------------------------------------------
 
-Danny is a passionate entrepreneur, openning Japanese restaurant since 2021, selling only his 3 favourite foods such as:
+Danny is a serious Japanese food enthusiast, and in early 2021, he took a leap of faith to turn his passion into a business. He opened Danny’s Diner&mdash;a cozy spot serving his top three favorites: sushi, curry, and ramen.
 
-- 🍣 Sushi
-- 🍛 Curry 
-- 🍜 Ramen
+But now, Danny needs your help to keep his beloved diner thriving. Over the past few months, he’s gathered some basic data from his customers, yet he’s unsure how to use it to make smarter business decisions. He wants to dive into this data to understand his customers’ habits, spending patterns, and favorite menu items. By uncovering these insights, Danny hopes to create more personalized experiences for his loyal diners.
 
-He has been collecting basic data about his customers, such as their visiting patterns, spending habits, and favorite menu items. He wants to use this data to **improve his business and make smarter decisions about his customer loyalty program**. He has provided a sample of his customer data, and he hopes that you can use it to write SQL queries that will help him answer his questions.
+With your help, Danny plans to use this knowledge to expand his customer loyalty program. Additionally, he needs support generating easy-to-use datasets for his team—so they can get insights at a glance without needing to dig into SQL.
 
 <br>
 
